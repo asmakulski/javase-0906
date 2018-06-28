@@ -1,31 +1,33 @@
-package com;
+package Cwiczenie12345678;
 
 public class Menu {
 
+    //Cwiczenie 1
     int number;
     String text;
 
     //konstruktor bezparametrowy
     public Menu(){
         number = 5;
-        text = "this is a test";
+        text = "text field initialized from within non-argument constructor";
     }
 
+    //konstruktor z dwoma parametrami
     public Menu(int number, String text){
         this.number = number;
         this.text = text;
     }
 
     public void methodReturningNothing(){
-        System.out.println("message from void method");
+        System.out.println("Message from void method");
     }
 
     public void nonStaticMethod(){
-        System.out.println("To jest wywolanie metody nie-statycznej");
+        System.out.println("To jest wywolanie metody nie-statycznej, ktora wymaga utworzenia obiektu do jej wywolania");
     }
 
     public static void staticMethod(){
-        System.out.println("To jest wywolanie metody statycznie");
+        System.out.println("To jest wywolanie metody statycznej, ktora nie wymaga utworzenia obiektu do jej wywolania");
     }
 
     public int getNumber(){
@@ -43,9 +45,4 @@ public class Menu {
     public void setText(String text){
         this.text = text;
     }
-
-
-
-
-
 }
