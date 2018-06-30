@@ -1,4 +1,4 @@
-package Cwiczenie9;
+package Ex09_Int_vs_Integer;
 
 public class Main2 {
 

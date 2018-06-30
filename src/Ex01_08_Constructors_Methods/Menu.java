@@ -1,8 +1,7 @@
-package Cwiczenie12345678;
+package Ex01_08_Constructors_Methods;
 
 public class Menu {
 
-    //Cwiczenie 1
     int number;
     String text;
 

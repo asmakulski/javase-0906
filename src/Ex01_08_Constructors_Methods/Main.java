@@ -1,4 +1,4 @@
-package Cwiczenie12345678;
+package Ex01_08_Constructors_Methods;
 
 public class Main {
 
