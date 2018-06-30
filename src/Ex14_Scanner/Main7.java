@@ -1,8 +1,8 @@
-package Ex11_Scanner;
+package Ex14_Scanner;
 
 import java.util.Scanner;
 
-public class Main4 {
+public class Main7 {
 
     public static void main(String[] args) {
 

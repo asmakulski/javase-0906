@@ -35,8 +35,8 @@ public class Main {
         Menu.staticMethod();
         System.out.println();
 
-        //ustawienie pol metody Menu za pomoca setterow i wyswietlenie za pomoca getterow
-        System.out.println("[Ustawienie pol metody Menu za pomoca setterow oraz pobranie i wyswietlenie za pomoca getterow]");
+        //ustawienie pol metody Menu5 za pomoca setterow i wyswietlenie za pomoca getterow
+        System.out.println("[Ustawienie pol metody Menu5 za pomoca setterow oraz pobranie i wyswietlenie za pomoca getterow]");
         Menu menu1 = new Menu();
         menu1.setNumber(6);
         menu1.setText("tekst ustawiony przez settera");
