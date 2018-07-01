@@ -2,10 +2,10 @@ package Ex10_Enum;
 
 public class Car {
 
-    EnumCarBodyType bodyType;
+    BodyType bodyType;
     int power;
 
-    public Car (EnumCarBodyType bodyType, int power){
+    public Car (BodyType bodyType, int power){
         this.bodyType = bodyType;
         this.power = power;
     }

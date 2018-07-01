@@ -4,7 +4,7 @@ public class Menu4 {
 
     private int number;
     private String text;
-    private Enum4 myEnum4;
+    private Possibilities4 myPossibilities4;
 
     public Menu4(){
         number = 5;
@@ -36,11 +36,11 @@ public class Menu4 {
         this.text = text;
     }
 
-    public Enum4 getMyEnum4() {
-        return myEnum4;
+    public Possibilities4 getMyPossibilities4() {
+        return myPossibilities4;
     }
 
-    public void setMyEnum4(Enum4 myEnum4) {
-        this.myEnum4 = myEnum4;
+    public void setMyPossibilities4(Possibilities4 myPossibilities4) {
+        this.myPossibilities4 = myPossibilities4;
     }
 }

@@ -1,7 +1,7 @@
 package Ex10_Enum;
 
 //ograniczony zbior wartosci ENUM
-public enum EnumCarBodyType {
+public enum BodyType {
     SEDAN,
     WAGON,
     COUPE,
